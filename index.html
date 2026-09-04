@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_back" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link href="css/style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <nav>
+    <div class="container d-lg-flex">
+        <div class="row w-100">
+        <div class="col-lg-2 col-md-3 col-6">
+        <div class="logo">
+            <img src="images/illustration/logo-white.png" alt="">
+        </div>
+        </div>
+        <div class="mobile-nav d-md-none d-flex justify-content-end col-6">
+        <div class="dos">
+
+    <button class="btn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasSM"
+            aria-controls="offcanvasSM">
+
+        <i class="bi bi-list-nested"></i>
+
+    </button>
+
+
+    <div class="offcanvas offcanvas-end"
+         tabindex="-1"
+         id="offcanvasSM"
+         aria-labelledby="offcanvasSMLabel">
+
+        <div class="offcanvas-header">
+
+            <h5 class="offcanvas-title" id="offcanvasSMLabel">
+
+                <img src="images/illustration/logo-white.png" alt="">
+
+            </h5>
+
+
+            <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+
+            </button>
+
+        </div>
+
+
+        <div class="offcanvas-body">
+
+            <div class="list-2">
+
+                <ul>
+
+                    <li>
+                        <a href="#">home</a>
+                    </li>
+
+                    <li>
+                        <a href="#">pages</a>
+                    </li>
+
+                    <li>
+                        <a href="#">projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#">blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#">contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div class="contact-2">
+                <div class="con">
+                <span>
+                    <a href="#">
+                        <i class="bi bi-envelope"></i>
+                        info@Archinix.com
+                    </a>
+                </span>
+
+
+                <span>
+                    <a href="#">
+                        <i class="bi bi-telephone"></i>
+                        123-456-7890
+                    </a>
+                </span>
+                </div>
+                <div class="anchor">
+                <a href="#">
+                    contact us
+                </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+        </div>
+        <div class="nav-set col-lg-8 col-md-6 col-6 d-md-flex d-none">
+            <nav class="navigation">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <div class="toggle col-lg-2 col-md-3 col-6 d-md-flex d-none">
+
+    <button class="btn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasLG"
+            aria-controls="offcanvasLG">
+
+        <i class="bi bi-list-nested"></i>
+
+    </button>
+
+
+    <div class="offcanvas offcanvas-end"
+         tabindex="-1"
+         id="offcanvasLG"
+         aria-labelledby="offcanvasLGLabel">
+
+
+        <div class="offcanvas-header">
+
+            <h5 class="offcanvas-title" id="offcanvasLGLabel">
+
+                <img src="images/illustration/logo-white.png" alt="">
+
+            </h5>
+
+
+            <button type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close">
+
+                <i class="bi bi-x-lg"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="offcanvas-body">
+
+            <div class="in">
+
+                <div class="in-p">
+
+                    <p>
+                        Welcome to Archinix, a full service
+                        architecture and interior design firm.
+                    </p>
+
+                </div>
+
+
+                <div class="pp">
+
+                    <img src="images/illustration/offcanvas-img.jpg"
+                         alt="">
+
+
+                    <a href="#">
+                        get in touch
+                    </a>
+
+                </div>
+
+
+                <div class="media">
+
+                    <ul>
+
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-skype"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>    
+    </div>
+    </div>
+    </nav>
+</header>
+
+<section class="wrapper">
+    <div class="hero=page">
+        <div class="hero d-flex container">
+            <div class="hero-text container">
+                <span>Welcome to archinix</span>
+                <h1><strong> Award Winning </strong>Architect Studio</h1>
+                <p>We are a London-based architecture and design firm with a global reputation for creating innovative spaces.</p>
+                <button><a href="#">get started</a></button>
+                <div  class="play">
+                <a href="https://youtu.be/uySn1BZiWWs?si=YVgJnffQ-rCgjFwi"><i class="bi bi-play-circle"></i>play</a>
+                </div>
+            </div>
+            <div class="side">
+                <img src="images/background/cta-bg.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="feature">
+    <div class="feat container d-lg-flex">
+        <div class="build">
+            <span>core feature</span>
+            <h2>building the future</h2>
+        </div>
+        <div class="concept">
+            <div class="row">
+                <div class="col-lg-2 col-md-6 col-8">
+                <div class="one">
+                    <div class="same">
+                    <img src="https://img.icons8.com/?size=100&id=WDn2eHasxXt4& format=png&color=000000" alt="">
+                    <h4>schematic</h4>
+                    </div>
+                <div class="para">
+                    <p>In dignissim libero et tincidunt congue. Mauris sed tellus lectus. Duis at consect Lorem, ipsum dolor. quam.
+                    </p>                   
+                </div>
+                </div>
+                <div class="two">
+                    <div class="same">
+                    <img src="https://img.icons8.com/?size=100&id=WDn2eHasxXt4& format=png&color=000000" alt="">
+                    <h4>concept</h4>
+                    </div>
+                <div class="para">
+                    <p>In dignissim libero et tincidunt congue. Mauris sed tellus lectus. Duis at consect Lorem, ipsum dolor. quam.
+                    </p>                   
+                </div>
+                </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-8">
+                <div class="three">
+                    <div class="same">
+                    <img src="https://img.icons8.com/?size=100&id=WDn2eHasxXt4& format=png&color=000000" alt="">
+                    <h4>floor planning</h4>
+                    </div>
+                <div class="para">
+                    <p>In dignissim libero et tincidunt congue. Mauris sed tellus lectus. Duis at consect Lorem, ipsum dolor. quam.
+                    </p>                   
+                </div>
+                </div>
+                
+                <div class="four">
+                    <div class="same">
+                    <img src="https://img.icons8.com/?size=100&id=WDn2eHasxXt4& format=png&color=000000" alt="">
+                    <h4>landscape</h4>
+                    </div>
+                <div class="para">
+                    <p>In dignissim libero et tincidunt congue. Mauris sed tellus lectus. Duis at consect Lorem, ipsum dolor. quam.
+                    </p>                   
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="about">
+    <div class="us container d-lg-flex justify-content-between gap-5">
+        <div class="pro">
+            <diV class="pro-des">
+            <span>about us</span>
+            <h2>architecture renovation</h2>
+            <p>we craft premium digital work for web, mobile and experiential with creative agencies and global brands alike – putting passion. Since the 1980s, as the complexity of buildings began to increase, the field of architecture technological expertise.</p>
+            </diV>
+            <div class="progress-bar">
+                <div class="bar-one">
+                <div class="percentage">
+                    <span class="white">renovation</span>
+                    <span class="count">90%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar-one" id="progressBar"></div>
+                </div>
+                </div>
+
+                <div class="bar-two">
+                <div class="percentage">
+                    <span class="white">functional spaces</span>
+                    <span class="count">70%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar-two" id="progressBar"></div>
+                </div>
+                </div>
+
+                <div class="bar-three">
+                <div class="percentage">
+                    <span class="white">architecture</span>
+                    <span class="count">80%</span>
+                </div>
+
+                <div class="progress">
+                    <div class="progress-bar-three" id="progressBar"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="img">
+            <img src="images/illustration/pro.jpg" alt="">
+        </div>
+        </div>
+
+    <div class="Since container ">
+        <div class="inside d-flex justify-content-between">
+            <div class="first">
+                <h3 class="counter">1995</h3>
+                <div class="line-1"></div>
+                <span>Since</span>
+            </div>
+            <div class="second">
+                <h3 class="counter">16</h3>
+                <div class="line-2"></div>
+                <span>offices</span>
+            </div>
+            <div class="third">
+                <h3 class="counter">217</h3>
+                <div class="line-3"></div>
+                <span>projects</span>
+            </div>
+            <div class="forth">
+                <h3 class="counter">47</h3>
+                <div class="line-4"></div>
+                <span>countries</span>
+            </div>
+        </div>
+        </div>
+</section>
+
+<section class="work">
+    <div class="our">
+        <div class="container">
+            <div class="port">
+                <span>our portfolio</span>
+                <h2>work example</h2>
+            </div>
+            <div class="work-line"></div>
+            
+<div class="shifters">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div id="list-example" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">
+                    Show all
+                </a>
+
+                <a class="list-group-item list-group-item-action" href="#list-item-2">
+                    interior
+                </a>
+
+                <a class="list-group-item list-group-item-action" href="#list-item-3">
+                    buildings
+                </a>
+
+                <a class="list-group-item list-group-item-action" href="#list-item-4">
+                    Construction
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+
+            <div id="scrollspy-content" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabindex="0" >
+
+                <section id="list-item-1">
+                    <h4>show all</h4>
+
+                    <div class="gal">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/illustration/gal-1.jpg" alt="Gallery 1">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-2.jpg" alt="Gallery 2">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-3.jpg" alt="Gallery 3">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-4.jpg" alt="Gallery 4">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-5.jpg" alt="Gallery 5">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-6.jpg" alt="Gallery 6">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="list-item-2">
+                    <h4>interior</h4>
+
+                    <div class="gal">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/illustration/gal-6.jpg" alt="Gallery 1">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-5.jpg" alt="Gallery 2">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-4.jpg" alt="Gallery 3">
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <section id="list-item-3">
+                    <h4>buildings</h4>
+
+                    <div class="gal">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/illustration/gal-2.jpg" alt="Gallery 1">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-3.jpg" alt="Gallery 2">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-1.jpg" alt="Gallery 3">
+                            </div>
+                            </div>
+                        </div>
+                    
+                </section>
+
+                <section id="list-item-4">
+                    <h4>Construction</h4>
+
+                    <div class="gal">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/illustration/gal-1.jpg" alt="Gallery 1">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-2.jpg" alt="Gallery 2">
+                            </div>
+
+                            <div class="col-4">
+                                <img src="images/illustration/gal-3.jpg" alt="Gallery 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="process">
+    <div class="steps container">
+        <div class="thought d-lg-flex">
+            <div class="steps-des">
+                <span>our process</span>
+                <h2>Every Steps Thoughtfully</h2>
+            </div>
+            <div class="acc">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" data-bs-target="#panelsStayOpen-collapseOne">
+        01/ listen & collaborate
+        <i class="bi bi-plus"></i>
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample ">
+      <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmo tempor incididunt ut labore et dolore ad magna aliqua. Ut enim ad minim veniam, quis nostrud. .</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        02/ envision design
+        <i class="bi bi-plus"></i>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmo tempor incididunt ut labore et dolore ad magna aliqua. Ut enim ad minim veniam, quis nostrud. </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        03/ patner & build
+        <i class="bi bi-plus"></i>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adip iscing elit, sed do eiusmo tempor incididunt ut labore et dolore ad magna aliqua. Ut enim ad minim veniam, quis nostrud. .</div>
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mid">
+    <div class="award container">
+        <div class="ll"></div>
+        <div class="aia">
+            <div class="row mt-30 mb-30">
+                <div class="col-xl-4 col-lg-4 col-md-8">
+                    <div class="award-one d-flex">
+                        <div class="aw-icon">
+                            <i class="bi bi-arrow-up-right-circle"></i>
+                        </div>
+                        <div class="aw-des">
+                            <span>2025</span>
+                            <h4>AIA award</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-8">
+                    <div class="award-one d-flex">
+                        <div class="aw-icon">
+                            <i class="bi bi-arrow-up-right-circle"></i>
+                        </div>
+                        <div class="aw-des">
+                            <span>2022</span>
+                            <h4>ASID award</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-8">
+                    <div class="award-one d-flex">
+                        <div class="aw-icon">
+                            <i class="bi bi-arrow-up-right-circle"></i>
+                        </div>
+                        <div class="aw-des">
+                            <span>2000</span>
+                            <h4>Leed Gold Certify</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="aff">
+    <div class="container">
+        <div class="price">
+            <div class="plan">
+                <div class="plan-h">
+                    <span>pricing plan</span>
+                    <h2>affordable cost rate</h2>
+                </div>
+                <div class="plan-p">
+                    <p>
+                        Our pricing is designed to provide exceptional value to our clients while ensuring that our team is able to deliver the highest quality design services.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="price-c">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-des">
+                        <div class="cl"></div>
+                        <h4>
+                            basic plan
+                        </h4>
+                        <h2>
+                            $2,500 - $5,000
+                        </h2>
+                        <div class="cl"></div>
+                        <div class="list">
+                            <ul>
+                                <li><i class="bi bi-check2"></i>interior design</li>
+                                <li><i class="bi bi-check2"></i>custom design concept</li>
+                                <li><i class="bi bi-check2"></i>3d rendering of proposed design</li>
+                                <li><i class="bi bi-check2"></i>detailed shoping list of decor items</li>
+                                <li><i class="bi bi-check2"></i>floor plan and elevations</li>
+                                <li><i class="bi bi-check2"></i>ideal for refreshing a single space</li>
+                            </ul>
+                        </div>
+                        <div class="cl"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-des">
+                        <div class="cl"></div>
+                        <h4>
+                            premium plan
+                        </h4>
+                        <h2>
+                            $10,000 - $20,000
+                        </h2>
+                        <div class="cl"></div>
+                        <div class="list">
+                            <ul>
+                                <li><i class="bi bi-check2"></i>Architectural Design</li>
+                                <li><i class="bi bi-check2"></i>Consultation with principal architect</li>
+                                <li><i class="bi bi-check2"></i>Detailed analysis and feasibility study</li>
+                                <li><i class="bi bi-check2"></i>Custom design concept</li>
+                                <li><i class="bi bi-check2"></i>Full set of construction documentation</li>
+                                <li><i class="bi bi-check2"></i>Assistance with permit applications </li>
+                                <li><i class="bi bi-check2"></i>Ideal for a building major renovation</li>
+                            </ul>
+                        </div>
+                        <div class="cl"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-des">
+                        <div class="cl"></div>
+                        <h4>
+                            deluxe plan
+                        </h4>
+                        <h2>
+                            10%
+                        </h2>
+                        <span>of project cost</span>
+                        <div class="cl"></div>
+                        <div class="list">
+                            <ul>
+                                <li><i class="bi bi-check2"></i>Project Management</li>
+                                <li><i class="bi bi-check2"></i>Full project management services</li>
+                                <li><i class="bi bi-check2"></i>Co-ordination with contractors</li>
+                                <li><i class="bi bi-check2"></i>Project Scheduling</li>
+                                <li><i class="bi bi-check2"></i>budget management</li>
+                                <li><i class="bi bi-check2"></i>Quality Control</li>
+                                <li><i class="bi bi-check2"></i>Regular Process Report</li>
+                                <li><i class="bi bi-check2"></i>Ideal for ensure project highest standard</li>
+                            </ul>
+                        </div>
+                        <div class="cl"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="let">
+    <div class="let-bg">
+        <div class="container-fluid up">
+            <div class="container up-h">
+                <h2>let's work together</h2>
+                <a href="#">contact us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="read">
+    <div class="articles container">
+        <div class="post">
+            <div class="latest">
+                <span>read articles</span>
+                <h2>latest post</h2>
+            </div>
+            <div class="post-grid row">
+                <div class="card-post col-lg-4 col-md-6 col-8">
+                    <div class="img">
+                        <img src="images/illustration/blog-4.jpg" alt="">
+                    </div>
+                    <div class="img-des">
+                        <span>architecture / august 31,2025</span>
+                        <div class="pl"></div>
+                        <h3>
+                            <a href="#">how to design a sustainable home</a>
+                        </h3>
+                        <span>by jane collins</span>
+                    </div>
+                </div>
+
+                <div class="card-post col-lg-4 col-md-6 col-8">
+                    <div class="img">
+                        <img src="images/illustration/blog-5.jpg" alt="">
+                    </div>
+                    <div class="img-des">
+                        <span>interior design / august 15,2025</span>
+                        <div class="pl"></div>
+                        <h3>
+                            <a href="#">the importance of lighting design in interior spaces</a>
+                        </h3>
+                        <span>by paul roberts</span>
+                    </div>
+                </div>
+
+                <div class="card-post col-lg-4 col-md-6 col-8">
+                    <div class="img">
+                        <img src="images/illustration/blog-6.jpg" alt="">
+                    </div>
+                    <div class="img-des">
+                        <span>architecture / august 8,2025</span>
+                        <div class="pl"></div>
+                        <h3>
+                            <a href="#">creating a funtional office and home spaces</a>
+                        </h3>
+                        <span>by sarah gomez</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>        
+</section>
+
+<section class="end">
+    <div class="container footer">
+        <div class="last row">
+            <div class="start col-lg-4 col-md-6"> 
+                <div class="logo-one">
+                    <img src="images/illustration/logo-white.png" alt="">
+                </div>
+                <p>We are the top architecture firm to deliver best works. Innovative services highly customized.</p>
+            </div>
+            <div class="location col-lg-4 col-md-6">
+                <div class="loc">
+                    <h5>office</h5>
+                    <p>Corporate Office-175 24th Street, OT- 35 London, UK 265</p>
+                    <div class="space-ss">
+                        <span>have a project in mind ?</span>
+                        <a href="#">info@archinix.com</a>
+
+                        <span>Mon-Fri, 08.00 AM-09.00 PM</span>
+                        <a href="#">+18-4675826</a>
+                    </div>
+                </div>
+            </div>
+            <div class="links col-lg-2 col-md-8">
+                <h5>links</h5>
+                <ul>
+                    <li>company</li>
+                    <li>press meadia</li>
+                    <li>careers</li>
+                    <li>services</li>
+                    <li>projects</li>
+                </ul>
+            </div>
+            <div class="follow col-lg-2 col-md-8">
+                <h5>follow us</h5>
+                <ul>
+                    <li>facebook</li>
+                    <li>instagram</li>
+                    <li>medium</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div class="end-line"></div>
+    <div class="copy">
+            <p>
+                © 2025 Archinix. All rights reserved. Privacy Policy | Terms & Conditions
+
+            </p>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
