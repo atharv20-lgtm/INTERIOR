@@ -1823,7 +1823,10 @@ body{
         width: 25%;
     }
     
-
+    .inside span{
+        display: block;
+        text-align: center;
+    }
     .pro {
         width: 50%;
     }
@@ -1839,8 +1842,16 @@ body{
     .counter {
         font-size: 4rem;
     }
-    
-
+    .list-group{
+        height: 300px;
+    }
+     #list-example .list-group-item{
+        font-size: 1.1rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-weight: 600;
+    }
     #scrollspy-content {
         height: 600px;
     }
